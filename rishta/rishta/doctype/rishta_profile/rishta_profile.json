@@ -1,0 +1,557 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2025-04-25 22:12:34.757570",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_zkg5",
+  "amended_from",
+  "basic_details_section",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "full_name",
+  "user_id",
+  "about",
+  "column_break_t2pp",
+  "gender",
+  "dob",
+  "height",
+  "weight",
+  "created_by_person",
+  "marital_status",
+  "blood_group",
+  "disabilities",
+  "section_break_zk6y",
+  "caste",
+  "religion",
+  "mother_tongue",
+  "community",
+  "diet_prefrences",
+  "contact_details_section",
+  "contact",
+  "mobile_number",
+  "second_mobile_number",
+  "email",
+  "facebook",
+  "instagram",
+  "linkdin",
+  "column_break_inhg",
+  "block_name",
+  "city",
+  "district",
+  "state",
+  "country",
+  "address",
+  "family_details_section",
+  "family",
+  "father_name",
+  "fathers_occupation",
+  "mother_name",
+  "mothers_occupation",
+  "column_break_64c6",
+  "about_family",
+  "family_type",
+  "sister",
+  "brother",
+  "section_break_rqiq",
+  "education",
+  "highest_qualification",
+  "education_field",
+  "college_name",
+  "annual_income",
+  "column_break_revj",
+  "profession",
+  "occupation",
+  "company_type",
+  "company",
+  "work_location",
+  "section_break_ordz",
+  "food_habits",
+  "smoking",
+  "drinking",
+  "column_break_tfse",
+  "interests",
+  "hobbies",
+  "kyc_details_section",
+  "kyc",
+  "adhar_number",
+  "pan_card",
+  "partner_preferences_section",
+  "min_age",
+  "max_age",
+  "min_height",
+  "max_height",
+  "partner_caste_preference",
+  "column_break_jmrl",
+  "partner_education_profession",
+  "profession_preferences",
+  "preference_state",
+  "from_any_state",
+  "location_preference"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_zkg5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Rishta Profile",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Personal Details"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "label": "User ID",
+   "options": "User"
+  },
+  {
+   "fieldname": "about",
+   "fieldtype": "Long Text",
+   "label": "About"
+  },
+  {
+   "fieldname": "column_break_t2pp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Data",
+   "label": "Height"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Data",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "created_by_person",
+   "fieldtype": "Data",
+   "label": "Created By Person"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Data",
+   "label": "Marital Status"
+  },
+  {
+   "fieldname": "blood_group",
+   "fieldtype": "Data",
+   "label": "Blood Group"
+  },
+  {
+   "fieldname": "disabilities",
+   "fieldtype": "Data",
+   "label": "Disabilities"
+  },
+  {
+   "fieldname": "section_break_zk6y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "caste",
+   "fieldtype": "Link",
+   "label": "Caste",
+   "options": "Rishta Caste"
+  },
+  {
+   "fieldname": "religion",
+   "fieldtype": "Data",
+   "label": "Religion"
+  },
+  {
+   "fieldname": "mother_tongue",
+   "fieldtype": "Data",
+   "label": "Mother Tongue"
+  },
+  {
+   "fieldname": "community",
+   "fieldtype": "Link",
+   "label": "Community",
+   "options": "Rishta Community"
+  },
+  {
+   "fieldname": "diet_prefrences",
+   "fieldtype": "Data",
+   "label": "Diet Prefrences"
+  },
+  {
+   "fieldname": "contact_details_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Data",
+   "label": "Contact"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "second_mobile_number",
+   "fieldtype": "Data",
+   "label": "Second Mobile Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "facebook",
+   "fieldtype": "Data",
+   "label": "Facebook"
+  },
+  {
+   "fieldname": "instagram",
+   "fieldtype": "Data",
+   "label": "Instagram"
+  },
+  {
+   "fieldname": "linkdin",
+   "fieldtype": "Data",
+   "label": "Linkdin"
+  },
+  {
+   "fieldname": "column_break_inhg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "block_name",
+   "fieldtype": "Data",
+   "label": "Block Name"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "Rishta District"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Link",
+   "label": "State",
+   "options": "Rishta State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Long Text",
+   "label": "Address",
+   "max_height": "100px"
+  },
+  {
+   "fieldname": "family_details_section",
+   "fieldtype": "Section Break",
+   "label": "Family Details"
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Data",
+   "label": "Family"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father"
+  },
+  {
+   "fieldname": "fathers_occupation",
+   "fieldtype": "Data",
+   "label": "Fathers Occupation"
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "Mother"
+  },
+  {
+   "fieldname": "mothers_occupation",
+   "fieldtype": "Data",
+   "label": "Mothers Occupation"
+  },
+  {
+   "fieldname": "column_break_64c6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "about_family",
+   "fieldtype": "Data",
+   "label": "About Family"
+  },
+  {
+   "fieldname": "family_type",
+   "fieldtype": "Data",
+   "label": "Family Type"
+  },
+  {
+   "fieldname": "sister",
+   "fieldtype": "Data",
+   "label": "Sister"
+  },
+  {
+   "fieldname": "brother",
+   "fieldtype": "Data",
+   "label": "Brother"
+  },
+  {
+   "fieldname": "section_break_rqiq",
+   "fieldtype": "Section Break",
+   "label": "Education & Work"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "highest_qualification",
+   "fieldtype": "Data",
+   "label": "Highest Qualification"
+  },
+  {
+   "fieldname": "education_field",
+   "fieldtype": "Data",
+   "label": "Education Field"
+  },
+  {
+   "fieldname": "college_name",
+   "fieldtype": "Data",
+   "label": "College Name"
+  },
+  {
+   "fieldname": "annual_income",
+   "fieldtype": "Data",
+   "label": "Annual Income"
+  },
+  {
+   "fieldname": "column_break_revj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "profession",
+   "fieldtype": "Data",
+   "label": "Profession"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Data",
+   "label": "Occupation"
+  },
+  {
+   "fieldname": "company_type",
+   "fieldtype": "Select",
+   "label": "Company Type",
+   "options": "\nGoverment\nPrivate"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "work_location",
+   "fieldtype": "Data",
+   "label": "Work Location"
+  },
+  {
+   "fieldname": "section_break_ordz",
+   "fieldtype": "Section Break",
+   "label": "Hobbies and Interests"
+  },
+  {
+   "fieldname": "food_habits",
+   "fieldtype": "Data",
+   "label": "Food Habits"
+  },
+  {
+   "fieldname": "smoking",
+   "fieldtype": "Data",
+   "label": "Smoking"
+  },
+  {
+   "fieldname": "drinking",
+   "fieldtype": "Data",
+   "label": "Drinking"
+  },
+  {
+   "fieldname": "column_break_tfse",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "interests",
+   "fieldtype": "Data",
+   "label": "Interests"
+  },
+  {
+   "fieldname": "hobbies",
+   "fieldtype": "Data",
+   "label": "Hobbies"
+  },
+  {
+   "fieldname": "kyc_details_section",
+   "fieldtype": "Section Break",
+   "label": "KYC Details"
+  },
+  {
+   "fieldname": "kyc",
+   "fieldtype": "Select",
+   "label": "KYC",
+   "options": "\nNot Started\nPending\nVerified\nNot Verified"
+  },
+  {
+   "fieldname": "adhar_number",
+   "fieldtype": "Data",
+   "label": "Adhar Number"
+  },
+  {
+   "fieldname": "pan_card",
+   "fieldtype": "Data",
+   "label": "Pan Card"
+  },
+  {
+   "fieldname": "partner_preferences_section",
+   "fieldtype": "Section Break",
+   "label": "Partner Preferences"
+  },
+  {
+   "fieldname": "min_age",
+   "fieldtype": "Data",
+   "label": "Partner Minimum Age"
+  },
+  {
+   "fieldname": "max_age",
+   "fieldtype": "Data",
+   "label": "Partner Maximum Age"
+  },
+  {
+   "fieldname": "min_height",
+   "fieldtype": "Data",
+   "label": "Partner Minimum Height"
+  },
+  {
+   "fieldname": "max_height",
+   "fieldtype": "Data",
+   "label": "Partner Maximum Height"
+  },
+  {
+   "fieldname": "partner_caste_preference",
+   "fieldtype": "Data",
+   "label": "Religion and Caste Preferences"
+  },
+  {
+   "fieldname": "column_break_jmrl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "partner_education_profession",
+   "fieldtype": "Data",
+   "label": "Partner Education Profession"
+  },
+  {
+   "fieldname": "profession_preferences",
+   "fieldtype": "Data",
+   "label": "Profession Preferences"
+  },
+  {
+   "fieldname": "preference_state",
+   "fieldtype": "Link",
+   "label": "Preference State",
+   "options": "Rishta State"
+  },
+  {
+   "default": "0",
+   "fieldname": "from_any_state",
+   "fieldtype": "Check",
+   "label": "From any state"
+  },
+  {
+   "fieldname": "location_preference",
+   "fieldtype": "Data",
+   "label": "Location Preferences"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-05-20 05:45:23.114130",
+ "modified_by": "Administrator",
+ "module": "Rishta",
+ "name": "Rishta Profile",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
